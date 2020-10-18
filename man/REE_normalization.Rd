@@ -18,5 +18,5 @@ a data frame with REEs data normalized by CI chondrite or PAAS
 Normalize the REEs data
 }
 \examples{
-REE_normalization (data = temp, method = "PAAS", exclude = c("Ce","Tm"))
+REE_normalization (data = temp, method = "PAAS")
 }
