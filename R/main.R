@@ -1,5 +1,4 @@
-# Seawater Density
-#' value calculation
+#' Seawater Density
 #'
 #' @param Temperature the temperature of seawater. default: 25 degree C
 #' @param P the pressure condition of seawater. default: 1 bar
@@ -102,8 +101,7 @@ seawater_density <- function (Temperature = 25, P = 1, S = 35) {
   return(density)
 }
 
-# Critical Pressure
-#' data frame calculation
+#' Critical Pressure
 #'
 #' @param Temperature the temperature of seawater. default: 25 degree C
 #' @param type should be either "saturated" or "full". default: "saturated"
@@ -157,8 +155,7 @@ critical_pressure <- function (Temperature = 25, type = "saturated") {
   return(Critical_P)
 }
 
-# Quartz solubility
-#' data frame calculation
+#' Quartz solubility
 #'
 #' @param Temperature the temperature of seawater. default: 25 degree C
 #' @param S the salinity of seawater. default: 35
@@ -197,8 +194,7 @@ quartz_sol <- function (Temperature = 25, S = 35, ref = "vonDamm1991") {
 
 }
 
-# Dissolution constant of minerals
-#' data frame calculation
+#' Dissolution constant of minerals
 #'
 #' @param Temperature temperature condition. default: 25 degree C
 #' @param mineral the specified minerals: anhydrite, calcite, barite, celestite
@@ -246,8 +242,7 @@ dissolution_constant <- function (Temperature = 25, mineral) {
   return (logK)
 }
 
-# Henry's constants
-#' data frame calculation
+#' Henry's constants
 #'
 #' @param Temperature temperature condition. default: 25 degree C
 #' @param gas the gas species. default: "N2"
@@ -294,8 +289,7 @@ Henry_constant <- function (Temperature = 25, gas = 'N2') {
 
 }
 
-# CO2-CH4 equilibration temperature
-#' data frame calculation
+#' CO2-CH4 equilibration temperature
 #'
 #' @param Temperature temperature condition. default: 25 degree C
 #'
@@ -319,8 +313,7 @@ Horita_T <- function (Temperature = 25) { #input temperature in degree C, return
   return (dCO2_CH4)
 }
 
-# CO2-CH4 equilibration to calculate temperature
-#' data frame calculation
+#' CO2-CH4 equilibration to calculate temperature
 #'
 #' @param dC ΔCO2-CH4
 #'
@@ -357,8 +350,7 @@ Horita <- function (dC) {                     #input dCO2-CH4, return temperatur
 
 }
 
-# carbonate veins
-#' data frame calculation
+#' carbonate veins
 #'
 #' @param mineral the mineral type of the carbonate veins.
 #' @param d18O the d18O value of the carbonate veins. default: 20
@@ -402,8 +394,7 @@ d18O_temperature <- function (d18O = 20, mineral, ref = 0) {
   return (calculated_temperature)
 }
 
-# Normalize Rare Earth Elements (REEs) data
-#' data frame calculation
+#' Normalize Rare Earth Elements (REEs) data
 #'
 #' @param data the raw data that need to be normalized
 #' @param method the normalization reference. default: "CI"
@@ -474,8 +465,7 @@ REE_normalization <- function (data, method = "CI") {
   } else return("Please input the correct normalization method, CI or PAAS")
 }
 
-# CO2 partial dissolution
-#' data frame calculation
+#' CO2 partial dissolution
 #'
 #' @param Temperature the temperature of fluid. default: 25 degree C
 #' @param pH the pH value of the fluid. default: 7
