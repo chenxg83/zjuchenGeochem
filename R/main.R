@@ -413,7 +413,7 @@ d18O_temperature <- function (d18O = 20, mineral, ref = 0) {
 #' @export
 #'
 #' @examples
-#' REE_normalization (data = temp, method = "PAAS", exclude = c("Ce","Tm"))
+#' REE_normalization (data = temp, method = "PAAS")
 #' @description Normalize the REEs data
 
 REE_normalization <- function (data, method = "CI") {
