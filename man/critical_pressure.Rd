@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{critical_pressure}
 \alias{critical_pressure}
-\title{data frame calculation}
+\title{Critical Pressure}
 \usage{
 critical_pressure(Temperature = 25, type = "saturated")
 }

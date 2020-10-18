@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{REE_normalization}
 \alias{REE_normalization}
-\title{data frame calculation}
+\title{Normalize Rare Earth Elements (REEs) data}
 \usage{
 REE_normalization(data, method = "CI")
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{CO2_dissolution}
 \alias{CO2_dissolution}
-\title{data frame calculation}
+\title{CO2 partial dissolution}
 \usage{
 CO2_dissolution(Temperature = 25, pH = 7)
 }

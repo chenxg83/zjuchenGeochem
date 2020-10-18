@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{Horita_T}
 \alias{Horita_T}
-\title{data frame calculation}
+\title{CO2-CH4 equilibration temperature}
 \usage{
 Horita_T(Temperature = 25)
 }

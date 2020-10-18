@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{quartz_sol}
 \alias{quartz_sol}
-\title{data frame calculation}
+\title{Quartz solubility}
 \usage{
 quartz_sol(Temperature = 25, S = 35, ref = "vonDamm1991")
 }

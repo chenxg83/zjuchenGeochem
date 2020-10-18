@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{seawater_density}
 \alias{seawater_density}
-\title{value calculation}
+\title{Seawater Density}
 \usage{
 seawater_density(Temperature = 25, P = 1, S = 35)
 }

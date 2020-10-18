@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{Henry_constant}
 \alias{Henry_constant}
-\title{data frame calculation}
+\title{Henry's constants}
 \usage{
 Henry_constant(Temperature = 25, gas = "N2")
 }

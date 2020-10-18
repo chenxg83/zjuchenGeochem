@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{d18O_temperature}
 \alias{d18O_temperature}
-\title{data frame calculation}
+\title{carbonate veins}
 \usage{
 d18O_temperature(d18O = 20, mineral, ref = 0)
 }

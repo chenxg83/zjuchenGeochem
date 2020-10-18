@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{dissolution_constant}
 \alias{dissolution_constant}
-\title{data frame calculation}
+\title{Dissolution constant of minerals}
 \usage{
 dissolution_constant(Temperature = 25, mineral)
 }
