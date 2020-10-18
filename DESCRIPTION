@@ -1,0 +1,15 @@
+Package: zjuchenGeochem
+Type: Package
+Title: Bunch of geochemical equations/calculations
+Version: 0.1.0
+Author: Xuegang Chen
+Maintainer: Xuegang Chen <chenxg83@zju.edu.cn>
+Description: Bunch of geochemical equations/calculations, including thermodynamic calculations,
+    seawater properties, Henry's law, geothermometry, and etc. New functions
+    will be added when I encounter new theories/equations/calculations during my
+    scientific research.
+License: No licence
+Encoding: UTF-8
+LazyData: false
+Imports: tidyverse
+RoxygenNote: 7.1.0
